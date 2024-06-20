@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">eCommerceMobileApp</string>
+    <string name="size_7uk">Size: 7UK</string>
+    <string name="nike_sneakers">Nike Sneakers</string>
+    <string name="vision_alta_men_s_shoes_size_all_colours">Vision Alta Men’s Shoes Size (All Colours)</string>
+    <string name="_2_999">₹2,999</string>
+    <string name="_1_500">₹1,500</string>
+    <string name="_50_off">50% Off</string>
+    <string name="product_details">Product Details</string>
+    <string name="nearest_store">Nearest Store</string>
+    <string name="vip">VIP</string>
+    <string name="return_policy">Return policy</string>
 </resources>
