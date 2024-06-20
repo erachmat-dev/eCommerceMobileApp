@@ -37,6 +37,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
+    implementation(libs.sdp.android)
+    implementation(libs.ssp.android)
+    implementation(libs.picasso)
+    implementation(libs.sliding.carousel)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
