@@ -41,7 +41,6 @@ dependencies {
     implementation(libs.sdp.android)
     implementation(libs.ssp.android)
     implementation(libs.picasso)
-    implementation(libs.sliding.carousel)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

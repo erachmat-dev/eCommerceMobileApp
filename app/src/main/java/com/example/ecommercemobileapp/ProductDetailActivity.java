@@ -7,6 +7,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class ProductDetailActivity extends AppCompatActivity {
 
@@ -20,5 +25,12 @@ public class ProductDetailActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        RecyclerView rvProductSize = findViewById(R.id.rv_product_size);
+        rvProductSize.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        List<String> sizes = Arrays.asList("7 UK", "8 UK", "9 UK", "10 UK"); // Example data
+        ProductSizeAdapter adapter = new ProductSizeAdapter(sizes);
+        rvProductSize.setAdapter(adapter);
+
     }
 }

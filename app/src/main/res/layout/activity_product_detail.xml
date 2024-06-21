@@ -56,6 +56,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_14ssp"
                 android:text="@string/size_7uk"
+                android:textColor="@color/black"
                 android:layout_marginTop="@dimen/_10sdp"/>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -70,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_20ssp"
                 android:text="@string/nike_sneakers"
+                android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginTop="@dimen/_10sdp"/>
 
@@ -78,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_14ssp"
+                android:textColor="@color/black"
                 android:text="@string/vision_alta_men_s_shoes_size_all_colours" />
 
             <LinearLayout
@@ -128,13 +131,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_12ssp"
-                android:text="Perhaps the most iconic sneaker of all-time, this original Chicago? colorway is the cornerstone to any sneaker collection. Made famous in 1985 by Michael Jordan, the shoe has stood the test of time, becoming the most famous colorway of the Air Jordan 1. This 2015 release saw the ...More"
+                android:text="@string/example_product_description"
                 android:textColor="@color/black" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
                 android:layout_marginTop="@dimen/_5sdp">
 
                 <LinearLayout
@@ -143,7 +147,8 @@
                     android:layout_height="wrap_content"
                     android:padding="@dimen/_5sdp"
                     android:gravity="center_vertical"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:background="@drawable/round_border_grey">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -167,7 +172,8 @@
                     android:padding="@dimen/_5sdp"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
-                    android:layout_marginStart="@dimen/_5sdp">
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/round_border_grey">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -191,7 +197,8 @@
                     android:padding="@dimen/_5sdp"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
-                    android:layout_marginStart="@dimen/_5sdp">
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:background="@drawable/round_border_grey">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -205,6 +212,114 @@
                         android:text="@string/return_policy"
                         android:textColor="@color/text_grey"
                         android:layout_marginStart="@dimen/_5sdp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/btn_go_to_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/go_to_cart"/>
+
+                <ImageView
+                    android:id="@+id/btn_buy_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/buy_now"
+                    android:layout_marginStart="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/round_border_pink"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
+                    android:text="@string/delivery_in"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_21ssp"
+                    android:textStyle="bold"
+                    android:text="@string/_1_within_hour"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border_light_grey">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/view_similar"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        android:text="@string/view_similar"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_border_light_grey">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/add_to_compare"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold"
+                        android:text="@string/add_to_compare"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:textColor="@color/black" />
 
                 </LinearLayout>
 
