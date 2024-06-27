@@ -8,6 +8,7 @@ material = "1.10.0"
 activity = "1.9.0"
 constraintlayout = "2.1.4"
 picasso = "2.8"
+retrofit = "2.11.0"
 sdpAndroid = "1.1.1"
 slidingCarousel = "1.0.4"
 sspAndroid = "1.1.1"
@@ -21,6 +22,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 sliding-carousel = { module = "com.github.akshaaatt:Sliding-Carousel", version.ref = "slidingCarousel" }
 ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }

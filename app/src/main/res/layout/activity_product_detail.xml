@@ -57,6 +57,7 @@
                 android:textSize="@dimen/_14ssp"
                 android:text="@string/size_7uk"
                 android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:layout_marginTop="@dimen/_10sdp"/>
 
             <androidx.recyclerview.widget.RecyclerView
@@ -72,7 +73,7 @@
                 android:textSize="@dimen/_20ssp"
                 android:text="@string/nike_sneakers"
                 android:textColor="@color/black"
-                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:layout_marginTop="@dimen/_10sdp"/>
 
             <TextView
@@ -81,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_14ssp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_regular"
                 android:text="@string/vision_alta_men_s_shoes_size_all_colours" />
 
             <LinearLayout
@@ -95,6 +97,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/_14ssp"
                     android:text="@string/_2_999"
+                    android:fontFamily="@font/montserrat_regular"
                     android:textColor="@color/text_grey"/>
 
                 <TextView
@@ -104,6 +107,7 @@
                     android:textSize="@dimen/_14ssp"
                     android:text="@string/_1_500"
                     android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_medium"
                     android:layout_marginStart="@dimen/_7sdp"/>
 
                 <TextView
@@ -113,7 +117,7 @@
                     android:textSize="@dimen/_14ssp"
                     android:text="@string/_50_off"
                     android:textColor="@color/text_red"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:layout_marginStart="@dimen/_7sdp"/>
 
             </LinearLayout>
@@ -124,13 +128,16 @@
                 android:textSize="@dimen/_14ssp"
                 android:text="@string/product_details"
                 android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_medium"
                 android:layout_marginTop="@dimen/_10sdp" />
 
             <TextView
                 android:id="@+id/txt_product_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
                 android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/montserrat_regular"
                 android:text="@string/example_product_description"
                 android:textColor="@color/black" />
 
@@ -139,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical"
-                android:layout_marginTop="@dimen/_5sdp">
+                android:layout_marginTop="@dimen/_10sdp">
 
                 <LinearLayout
                     android:id="@+id/btn_nearest_store"
@@ -161,6 +168,7 @@
                         android:textSize="@dimen/_10ssp"
                         android:text="@string/nearest_store"
                         android:textColor="@color/text_grey"
+                        android:fontFamily="@font/montserrat_medium"
                         android:layout_marginStart="@dimen/_5sdp"/>
 
                 </LinearLayout>
@@ -186,6 +194,7 @@
                         android:textSize="@dimen/_10ssp"
                         android:text="@string/vip"
                         android:textColor="@color/text_grey"
+                        android:fontFamily="@font/montserrat_medium"
                         android:layout_marginStart="@dimen/_5sdp"/>
 
                 </LinearLayout>
@@ -211,6 +220,7 @@
                         android:textSize="@dimen/_10ssp"
                         android:text="@string/return_policy"
                         android:textColor="@color/text_grey"
+                        android:fontFamily="@font/montserrat_medium"
                         android:layout_marginStart="@dimen/_5sdp"/>
 
                 </LinearLayout>
@@ -221,7 +231,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="@dimen/_5sdp">
+                android:layout_marginTop="@dimen/_10sdp">
 
                 <ImageView
                     android:id="@+id/btn_go_to_cart"
@@ -243,14 +253,14 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:background="@drawable/round_border_pink"
-                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:padding="@dimen/_10sdp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/_14ssp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:text="@string/delivery_in"
                     android:textColor="@color/black" />
 
@@ -258,7 +268,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/_21ssp"
-                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:text="@string/_1_within_hour"
                     android:textColor="@color/black" />
 
@@ -268,7 +278,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:weightSum="2">
 
                 <LinearLayout
@@ -289,8 +299,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14ssp"
-                        android:textStyle="bold"
+                        android:textSize="@dimen/_12ssp"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="@string/view_similar"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:textColor="@color/black" />
@@ -315,8 +325,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/_14ssp"
-                        android:textStyle="bold"
+                        android:textSize="@dimen/_12ssp"
+                        android:fontFamily="@font/montserrat_medium"
                         android:text="@string/add_to_compare"
                         android:layout_marginStart="@dimen/_5sdp"
                         android:textColor="@color/black" />
