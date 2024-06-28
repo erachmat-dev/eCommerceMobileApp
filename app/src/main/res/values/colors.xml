@@ -6,4 +6,6 @@
     <color name="text_grey">#808488</color>
     <color name="text_red">#FA7189</color>
     <color name="light_pink">#FFCCD5</color>
+    <color name="blue">#4392F9</color>
+    <color name="light_red">#FD6E87</color>
 </resources>
