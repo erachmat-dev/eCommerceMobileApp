@@ -42,4 +42,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="create_account">Create Account</string>
     <string name="i_already_have_an_account">I Already Have an Account</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="we_will_send_you_a_message_to_set_or_reset_your_new_password">* We will send you a message to set or reset your new password</string>
+    <string name="submit">Submit</string>
 </resources>
