@@ -32,4 +32,7 @@
     <string name="we_make_sure_you_get_the_offer_you_need_at_best_prices">We make sure you get the offer you need at best prices</string>
     <string name="trending_products">Trending Products</string>
     <string name="last_date_29_02_22">Last Date 29/02/22</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
 </resources>

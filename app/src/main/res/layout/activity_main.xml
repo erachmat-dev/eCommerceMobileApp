@@ -60,7 +60,7 @@
             app:boxStrokeWidth="0dp">
 
             <EditText
-                android:id="@+id/txt_search_product"
+                android:id="@+id/et_search_product"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/search_any_product"
